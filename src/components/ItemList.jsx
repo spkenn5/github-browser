@@ -11,7 +11,7 @@ export default class ItemList extends Component {
                 itemLayout="horizontal"
                 dataSource={data}
                 renderItem={item => (                    
-                    <List.Item actions={[<a href="/" onClick={(e) => { onClick(item) }}>view readme</a>]}>
+                    <List.Item actions={[<a href="#" onClick={(e) => { onClick(item) }}>view readme</a>]}>
                         <ItemDetail
                             name={item.name}
                             lang={item.language}
